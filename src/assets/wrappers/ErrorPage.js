@@ -21,6 +21,7 @@ const Wrapper = styled.main`
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     color: var(--text-secondary-color);
+    text-transform: capitalize;
   }
   a {
     color: var(--primary-500);

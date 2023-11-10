@@ -21,6 +21,7 @@ const Wrapper = styled.section`
     margin-top: 1rem;
     text-align: center;
     line-height: 1.5;
+    text-transform: capitalize;
   }
   .btn {
     margin-top: 1rem;

@@ -12,9 +12,12 @@ const Wrapper = styled.section`
   }
   @media (min-width: 992px) {
     .dashboard {
+      //auto: with the content
       grid-template-columns: auto 1fr;
     }
     .dashboard-page {
+      //90vw, display width
+      //90% of the content that is 1fr
       width: 90%;
     }
   }
