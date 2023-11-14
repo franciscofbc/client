@@ -24,6 +24,7 @@ const Wrapper = styled.aside`
       height: 6rem;
       display: flex;
       align-items: center;
+      /* justify-content: center; */
       padding-left: 2.5rem;
     }
     .nav-links {
@@ -38,12 +39,12 @@ const Wrapper = styled.aside`
       padding: 1rem 0;
       padding-left: 2.5rem;
       text-transform: capitalize;
-      transition: padding-left 0.3s ease-in-out;
+      /* transition: padding-left 0.3s ease-in-out; */
+      transition: var(--transition);
     }
     .nav-link:hover {
       padding-left: 3rem;
       color: var(--primary-500);
-      transition: var(--transition);
     }
     .icon {
       font-size: 1.5rem;
