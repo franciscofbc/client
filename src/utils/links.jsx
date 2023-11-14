@@ -6,7 +6,7 @@ import { ImProfile } from 'react-icons/im';
 import { MdAdminPanelSettings } from 'react-icons/md';
 
 const links = [
-    { text: 'add job', path: '.', icon: <FaWpforms /> },
+    { text: 'add job', path: '.', icon: <FaWpforms /> },//or path:/dashboard
     { text: 'all jobs', path: 'all-jobs', icon: <MdQueryStats /> },
     { text: 'stats', path: 'stats', icon: <IoBarChartSharp /> },
     { text: 'profile', path: 'profile', icon: <ImProfile /> },
