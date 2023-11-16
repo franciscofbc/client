@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled.button`
   background: transparent;
-  /* border-color: transparent; */
+  border-color: transparent;
   width: 3.5rem;
   height: 2rem;
   display: grid;
